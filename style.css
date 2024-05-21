@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    height:300;
+    width:300;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 90%;
+    height: 95vh;
+     
+    display:flex;
+    
+    text-align: centre;
+    background-color:rgb(171, 164, 182);
+}
+.calculator{
+    width:30%;
+    height:70vh;
+    
+border:2px solid rgb(12, 12, 12);
+padding:0px;
+border-radius: 16px;
+background:transparent;
+box-shadow:0px 3px 15px rgb(156, 155, 155);
+margin:auto;
+
+}
+input{
+    width:95%;
+    border:2px solid black;
+    padding: 13px;
+    margin:13px;
+    background: transparent;
+    font-size: 30px;
+    text-align:right;
+    box-shadow:0px 3px 15px rgbs(84,84,84,0.1);
+    cursor:pointer;
+    color:rgb(8, 8, 8);
+}
+
+input::placeholder{
+    color:rgb(12, 12, 12);
+}
+button{
+    border:none;
+    width:55px;
+    height:55px;
+    margin:10px;
+    border-radius: 50%;
+    background:transparent;
+    color:rgb(46, 2, 102);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    box-shadow:-8px -8px 15px rgba(10, 10, 10, 0.2);
+    
+}
+.equalbtn{
+    background-color: rgb(31, 161, 96);
+}
+.op{
+    background-color: rgb(31, 161, 96);
+}
+.spe{
+    color:rgb(100, 2, 2);
+}
