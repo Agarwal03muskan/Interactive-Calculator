@@ -1,5 +1,6 @@
 # Interactive-Calculator
 An interactive calculator built using HTML, CSS, and JavaScript is a web-based application that allows users to perform arithmetic operations through a graphical interface.
+
 HTML:
 The HTML structure includes the calculator’s display screen and buttons for digits (0-9), arithmetic operators (+, -, *, /), a clear button (C), and an equals button (=). Each button is wrapped in a form or div container to maintain the layout.
 
